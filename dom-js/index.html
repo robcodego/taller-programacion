@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Repositorio de sonidos</h1></header>
+    <main>
+      <div class="sonidos">
+        <div class="sonido bateria">
+          <img src="./assets/instrumentos-musicales.png" alt="bateria" />
+          <p class="descripcion-sonido">Drum</p>
+        </div>
+        <div class="sonido guitarra">
+          <img src="./assets/guitarra.png" alt="guitarra" />
+          <p class="descripcion-sonido">Guitar</p>
+        </div>
+        <div class="sonido flauta">
+          <img src="./assets/trompeta.png" alt="flauta" />
+          <p class="descripcion-sonido">Flute</p>
+        </div>
+        <div class="sonido piano">
+          <img src="./assets/piano.png" alt="piano" />
+          <p class="descripcion-sonido">Piano</p>
+        </div>
+        <script>
+          const audio = new Audio("./assets/drum-sound.mp3");
+          audio.play()
+        </script>
+      </div>
+    </main>
+  </body>
+</html>

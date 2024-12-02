@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #222;
+}
+
+.sonidos, .sonido{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sonido{
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.sonido:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: grab;
+}
+
+.sonido > img{
+    width: 30%;
+}
+
+.descripcion-sonido{
+    position: absolute;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #eee;
+    font-family: system-ui;
+}
+
+.sonidos{
+    height: 150px;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eee;
+}
+header{
+    margin-bottom: 10%;
+    margin-top: 30px;
+}
